@@ -104,6 +104,8 @@ else  ()
   set(C_FLAGS_WARNING "-Wall")
 endif (MSVC)
 
+set(CMAKE_CXX_STANDARD 11)
+
 set(C_CXX_FLAGS_DEFAULT "${C_FLAGS_WARNING} -O2")
 
 # These defaults can be overriden by -DCMAKE_C_FLAGS=""
